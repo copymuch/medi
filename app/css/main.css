@@ -81,8 +81,8 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
   color: #fff;
+  font-size: 14px;
 }
 .version img, .version-banner img {
   margin-right: 10px;
@@ -95,6 +95,13 @@ ul {
 .version-banner {
   background-color: #00868a;
   padding: 0 10px;
+}
+.version-banner button {
+  background-color: #00868a;
+  border: none;
+  color: #fff;
+  padding: 0;
+  margin: 0;
 }
 
 .media-bar {
@@ -116,4 +123,12 @@ ul {
 .promo {
   height: 40px;
   background-color: #4fbfa5;
+}
+
+select {
+  height: 20px;
+  width: 130px;
+  border: none;
+  font-size: 16px;
+  transform: all 0.5s ease;
 }
